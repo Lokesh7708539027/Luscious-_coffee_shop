@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: #343a40;
+}
+body
+{
+  width:1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav
+{
+   display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  font-size: 24px;
+  background-color:#f1f3f5;
+}
+.navlink
+{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.navlink a
+{
+  text-decoration: none;
+  margin-left: 48px;
+  color: #343a40;
+  font-size: 24px;
+}
+.logo
+{
+  font-size: 30px;
+  margin-left: 16px;
+  color: brown;
+}
+.wallpaper
+{
+  color:grey;
+  height:auto;
+  width: 100%;
+  position: relative;
+}
+
+img
+{
+  height:auto;
+  width: 100%;
+}
+
+.poster-image
+{
+  box-shadow: 0 0 42px rgba(0, 0, 0,0.1);
+  width: 400px;
+  height: 500px;
+}
+
+.poster-quoto
+{
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-bottom: 48px;
+  word-spacing: 2;
+}
+
+span
+{
+  color: #fff4e6;
+  font-size: 64px;
+}
+
+.poster-text
+{
+  font-size: 18px;
+  line-height: 1.6;
+  word-spacing: 1.5;
+}
+
+.poster-content
+{
+  display: flex;
+  gap: 48px;
+  padding: 48px;
+  position: absolute;
+  margin-top: 48px;
+  left: 11%;
+  top: 15%;
+}
+
+.poster-wrap
+{
+  margin-top: 115px;
+ 
+  width: 600px;
+}
+
+.poster-features
+{
+border-top: 19px soild #ffe8cc;
+display: flex;
+gap: 52px;
+font-size: 32px;
+position: absolute;
+top: 110%;
+left: 20%;
+}
+
+.t
+{
+font-size: 48px;
+}
+
+.types
+{
+margin-right: 24px;
+}
+
+
+
+
+.menu1-title
+  {
+    color: #fab005;
+    letter-spacing: -1px;
+    font-size: 20px;
+    word-spacing: 6px;
+    margin-bottom: 24px;
+  }
+  .menu1-content
+  {
+    font-size: 42px;
+    margin-bottom: 18px;
+  }
+
+  .menu1-text
+  {
+    font-size: 18px;
+  }
+  .menu2-title
+  {
+    color: #fab005;
+    margin-top: 24px;
+  }
+
+  .menu-img
+  {
+    width: 300px;
+    height: auto;
+  }
+
+  .menu
+  {
+    margin-top: 48px;
+  }
+
+  .menu-list
+  {
+    display: flex;
+    gap: 62px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 42px;
+  }
+  .menu
+  {
+    margin-top: 62px;
+  }
+  .menu1
+  {
+    margin-top: 62px;
+   
+  }
+  .one
+  {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .wired
+  {
+    margin-top: 68px;
+  }
+
+
+  .testimonial-title
+  {
+    color: #f59f00;
+    letter-spacing: -1px;
+    font-size: 20px;
+    word-spacing: 6px;
+    margin-bottom: 24px;
+    margin-top: 58px;
+  }
+
+  .testimonial-check
+  {
+    font-size: 40px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+
+  .testimonial-content
+  {
+    font-size: 20px;
+    margin-top: 32px;
+  }
+
+  .customerface
+  {
+    width: 500px;
+    height: auto;
+  }
+
+  .testimonial
+  {
+    background-color: #fff9db;
+    padding: 62px;
+    margin-top: 68px;
+    display: flex;
+    gap: 32px;
+    padding-bottom: 450px;
+  }
+
+  .customer-icon
+  {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 48px;
+    stroke: #f59f00;
+  }
+
+  .customer-icon1
+  {
+    width: 32px;
+  
+    height: 32px;
+    stroke: #f59f00;
+  }
+
+  .customer-img
+  {
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .card
+  {
+    width: 300px;
+    border-radius: 12px;
+    background-color: #f1f3f5;
+    padding: 24px 24px 24px 12px;
+    box-shadow: 0 0 8px rgba(0,0,0, 0.1);
+  }
+
+  .nam
+  {
+    color: #343a40;
+    font-size: 18px;
+    padding-top: 32px;
+  }
+  
+  .short
+  {
+    display: flex;
+    gap: 4px;
+  }
+
+  .customer-name
+  {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+  }
+
+  .customer-reviews
+  {
+    display: flex;
+    gap: 62px;
+    margin-left: 90px;
+    position: absolute;
+    top:370%;
+  }
+
+  .testimonial
+  {
+    position: relative;
+    
+  }
+
+  .testimonial-thought
+  {
+    line-height: 1.6;
+    font-size: 1.8;
+  }
